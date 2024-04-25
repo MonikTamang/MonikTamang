@@ -10,7 +10,7 @@ class Solution(object):  # class
             if digits[i] < 10: # when the digit is less the 10
                 return digits
             
-            digits[i] = 0  # when the no if 10 set the digit as 0 and complete the loop
+            digits[i] = 0  # when the no is 10 set the digit as 0 and complete the loop
             print('carry: ', digits)
             print('When 9: ', [1] + digits ) 
         return [1] + digits  # when the first no is 0 the add [1] in the array[] Eg: [1, ..., array] 
