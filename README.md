@@ -20,4 +20,4 @@
 
 1. Array
 2. Stacks and Queues
-3. Recursiv
+3. Recursive
