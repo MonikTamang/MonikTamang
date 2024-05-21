@@ -16,3 +16,10 @@ def testsquare():
 
 def testquality():
     assert 10 == 11  # test failed as 10 is not equal to 11
+
+
+# Notes
+# pytest 'for all test to run at once'
+# pytest -v 'all test with more details'
+# pytest testname.py -v 'individual test files'
+# pytest -k <substring> -v 'files with substring only'
