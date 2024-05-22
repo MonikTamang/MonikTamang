@@ -1,6 +1,5 @@
 # calling fixture function value (input_value)
 # creating test cases/ functions
-import pytest
 
 def test_divisible_by_3(input_value):
     assert input_value % 3 == 0, f"{input_value} is not divisible by 3."  # You can also provide the message for AssertionError
