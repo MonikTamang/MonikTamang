@@ -18,7 +18,7 @@ def testsquare():
     num = 7
     assert 7*7 == 40  # test failed as 7*7 == 49 
 
-@pytest.mark.others
+@pytest.mark.other
 def testquality():
     assert 10 == 11  # test failed as 10 is not equal to 11
 

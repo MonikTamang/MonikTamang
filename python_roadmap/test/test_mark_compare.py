@@ -16,3 +16,5 @@ def test_less():
    num = 100
    assert num < 200
 
+# How to run mark test?
+# pytest -m <markername> -v
