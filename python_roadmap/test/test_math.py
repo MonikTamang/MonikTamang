@@ -7,6 +7,7 @@ def test_sqrt():
     num = 25
     # assert are used to check if the actual result match the expected result
     # assertion will generate exception automatically when test donot match the result
+    # You can also provide message for AssertionError
 
     assert math.sqrt(num) == 5  # test passed as square root of 25 is 5
 
