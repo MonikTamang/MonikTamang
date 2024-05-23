@@ -24,3 +24,13 @@ def testquality():
 # pytest -v 'all test with more details'
 # pytest testname.py -v 'individual test files'
 # pytest -k <substring> -v 'files with substring only'
+# pytest -m <markername> -v 'files with the marker can mark multiple files with same name' 
+# pytest will execute 'xfailed' test, but it will not consider test as 'passed' or 'failed' and doesnot provide details
+# 'skip' is used to skip the test
+# @pytest.mark.xfail
+# @pytest.mark.skip
+# pytest -v --maxfail 2 <no of fails> 'stops when the no of fails is reached'
+# parallel testing pip install pytest-xdist
+# pytest -n 3 <num> 'total no of workers' only for large test
+# can also generate xml file for the test 
+# pytest <filename.py> -v --junitxml="result.xml"

@@ -1,0 +1,15 @@
+Notes
+1. pytest 'for all test to run at once'
+2. pytest -v 'all test with more details'
+3. pytest testname.py -v 'individual test files'
+4. pytest -k <substring> -v 'files with substring only'
+5. pytest -m <markername> -v 'files with the marker can mark multiple files with same name' 
+6. pytest will execute 'xfailed' test, but it will not consider test as 'passed' or 'failed' and doesnot provide details
+7. 'skip' is used to skip the test
+8. @pytest.mark.xfail
+9. @pytest.mark.skip
+10. pytest -v --maxfail 2 <no of fails> 'stops when the no of fails is reached'
+11. parallel testing pip install pytest-xdist
+12. pytest -n 3 <num> 'total no of workers' only for large test
+13. can also generate xml file for the test 
+14. pytest <filename.py> -v --junitxml="result.xml"
