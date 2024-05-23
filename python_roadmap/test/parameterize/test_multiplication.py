@@ -1,6 +1,6 @@
 # parameterizing of a test is done to run test agains multiple sets of inputs
 # @pytest.mark.parametrize
-# can create multiple parameters with in the same file 
+# can create multiple parameters within the same file 
 
 import pytest
 
